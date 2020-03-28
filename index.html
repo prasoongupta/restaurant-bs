@@ -23,11 +23,11 @@
 <span class="navbar-toggler-icon"> </span>
 </button>
 
-    <a class="navbar-brand" href="#"> Ristorante </a>
+    <a class="navbar-brand" href="#"> <img src="img/logo.png" class="img-fluid" height=30 width=41> </a>
     <div class="collapse navbar-collapse" id="Navbar">
       <ul class="navbar-nav mr-auto">
           <li class="nav-item active"> <a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-          <li class="nav-item"> <a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span>About</a></li>
+          <li class="nav-item"> <a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>About</a></li>
           <li class="nav-item"> <a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Menu</a></li>
           <li class="nav-item"> <a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>Contact</a></li>
       </ul>
@@ -45,6 +45,7 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div>
+                  <img src="img/logo.png" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -56,8 +57,15 @@
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-                <h2>Uthappizza</h2>
+            <div class="media">
+              <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthapizza" />
+              <div class="media-body">
+                <h2 class="mt-0">Uthappizza                 <span class="badge badge-danger">HOT</span>
+                <span class="badge badge-pill badge-secondary">$4.99</span>
+              </h2>
                 <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+              </div>
+            </div>
             </div>
         </div>
 
@@ -77,12 +85,60 @@
                 <h3>Meet our Culinary Specialists</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-                <h2>Alberto Somayya</h2>
+              <div class="media">
+                <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthapizza" />
+                <div class="media-body">
+                <h2 class="mt-0">Alberto Somayya</h2>
                 <h4>Executive Chef</h4>
                 <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+              </div>
+              </div>
             </div>
         </div>
+    <div class="row row-content">
+    <div class="col-sm-8 offset-sm-2"
+      <div class="card">
+        <h3 class="card-header bg-secondary text-white"> Reserve a Table</h3>
+        <div class="card-body ">
+              <form>
+                <div class="form-group row">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadio" id="radio1" value="1" />
+                    <label class="form-check-label" for="radio1">One </label>
+
+                    <input class="form-check-input" type="radio" name="inlineRadio" id="radio2" value="2" />
+                    <label class="form-check-label" for="radio2">Two </label>
+
+                    <input class="form-check-input" type="radio" name="inlineRadio" id="radio3" value="3" />
+                    <label class="form-check-label" for="radio3">Three </label>
+                  </div>
+                </div>
+
+                  <div class="form-group row">
+                    <label for="date" class="col-sm-1 col-form-label">Date</label>
+                    <div class="col-sm-2">
+                      <input type="text" class="form-control" id="date" name="date" placeholder="" />
+                    </div>
+                    <label for="time" class="col-sm-1 col-form-label">Time</label>
+                    <div class="col-sm-2">
+                      <input type="text" class="form-control" id="time" name="time" placeholder="" />
+                    </div>
+
+                </div>
+                                  <button type="submit" class="btn btn-primary">Reserve</button>
+              </form>
+        </div>
+      </div>
+
+      </div>
     </div>
+
+    </div>
+
+
+
+    </div>
+
 
     <footer class="footer">
         <div class="container">
